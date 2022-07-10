@@ -1,5 +1,3 @@
-//Correct
-
 const url = 'http://localhost:3030/data/catches';
 
 const loginA = document.getElementById('login');
@@ -113,6 +111,7 @@ function createNewElementWithContent(type, content){
 
     return newEl;
 }
+
 function createNewElementWithValue(type, value){
     const newEl = document.createElement(type);
     newEl.value = value;
