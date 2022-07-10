@@ -56,7 +56,7 @@ async function registerUser(event){
             _id: data._id
         }));
 
-        window.location = "src/index.html";
+        window.location.pathname = "src/index.html";
     }catch(error){
         alert(error.message);
     }
