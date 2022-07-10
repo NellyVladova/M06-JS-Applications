@@ -1,4 +1,4 @@
-console.log('TODO:// Implement Home functionality');
+//In Progress...
 //url
 const url = 'http://localhost:3030/data/catches';
 
