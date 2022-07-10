@@ -5,9 +5,6 @@ const registerForm = document.getElementById('register');
 const homeBtn = document.getElementById('home');
 homeBtn.href = "javascript:void(0)";
 
-const welcomeMessage = document.querySelector('.email');
-welcomeMessage.style.display = 'none';
-
 const logOut = document.getElementById('logout');
 logOut.style.display = 'none';
 
