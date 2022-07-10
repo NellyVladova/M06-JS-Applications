@@ -47,7 +47,7 @@ async function loginUser(event) {
             _id: data._id
         }));
 
-        location.pathname = 'app.js';
+        location.pathname = 'src/app.js';
     } catch (err) {
         alert(err.message);
     }
